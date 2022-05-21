@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Presentation</title>
+</head>
+<script type="text/javascript" src="clock.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+
+
+<!--This pulls up the clock, it's date and the current time from javascript-->
+
+<div class="component">
+<body onload="startTime()">
+<div class="clockdate-wrapper">
+<div id="clock"></div>
+<div id="date"></div>
+</div>
+
+
+
+
+<!--This is the Sidenavigation id caller from -->
+<div id="mySidenav" class="sidenav">
+<a class="closebtn" onclick="closeNav()">&times;</a>
+
+<!--This calls the the different schedules-->
+<div class="period2">
+<div id="blocks" style="display:none"></div>
+<div id="blocks2" style="display:none"></div>
+<div id="blocks3" style="display:none"></div>
+<div id="blocks4" style="display:none"></div>
+<div id="blocks5" style="display:none"></div>
+</div>
+
+<div class="period2">
+<div id="blockss" style="display:none"></div>
+<div id="blockss2" style="display:none"></div>
+<div id="blockss3" style="display:none"></div>
+<div id="blockss4" style="display:none"></div>
+<div id="blockss5" style="display:none"></div>
+</div>
+
+
+
+
+<div class="period">
+
+<!--These are the radio buttons that uses the funtion ShowHideDiv() from Javascript-->
+<label for="reg">
+    <input type="radio" id="reg" name="chkPassPort" onclick="ShowHideDiv()" />
+    Regular
+</label>
+
+<br>
+
+<label for="advisory">
+    <input type="radio" id="ad" name="chkPassPort" onclick="ShowHideDiv()" />
+    Advisory
+</label>
+
+<br>
+
+<label for="late">
+    <input type="radio" id="late" name="chkPassPort" onclick="ShowHideDiv()" />
+    Late Start
+</label>
+
+<br>
+
+<label for="ed">
+    <input type="radio" id="ed" name="chkPassPort" onclick="ShowHideDiv()" />
+    Early Dismissal
+</label>
+
+<br>
+
+<label for="ma">
+    <input type="radio" id="ma" name="chkPassPort" onclick="ShowHideDiv()" />
+    Mass
+</label>
+
+</div>
+</div>
+
+
+<!--This calls the function openNav() from JS and opens the side navigation-->
+<div class="period3">
+<span onclick="openNav()">Open Schedule</span>
+ </div>
+</div>
+
+<div class="sticky">
+<div class="header">
+<p id="top">
+</p>
+<center>
+  <h1><span class="highlightme"> Presentation </span></h1>
+</center>
+</div>
+</div>
+
+
+
+<!--NAVIGATION BAR-->
+<div class="sticky">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+ <a href="about.html">About Me</a>
+	<a href="network.html">Network</a>
+  	<a href="blogposts.html">Blog Posts</a>
+  	<a href="videoediting.html">Video Editing</a>
+  	<a href="presentation.html">Presentations</a>
+  	<a href="html.html">HTML</a>
+  	<a href="programming.html">Programming</a>
+  	<a href="computerparts.html">Computer Parts</a>
+  	<a href="javascript.html">JavaScript</a>         
+  	<a href="technology.html">Technology</a> 
+  	<a href="mygraphics.html">Graphics</a>  
+</div>
+</div>
+<div class="dropdown">
+    <button class="dropbtn"> Work 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="#top">Top</a>
+	<a href="#logo">Logo</a>
+	<a href="#splash">Splash Page</a>
+	<a href="#commercial">IT Commercial</a>
+  	
+
+</div>
+</div>
+</div>
+ </div>
+
+<!--END OF NAVIGATION BAR-->
+
+<body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class= "text">
+<center>
+The presentation project my teammates and I have worked on is a fictional product called the Daydream Headphones. In order to create a successful presentation and ad for our class, we had to use our video editing and photoshop skills to bring our product to life. We've also learned how to create a storyboard to help our schedules during our filming.
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id="logo">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Logo: DayDream</h1>
+<img class="img" src="logo.jpg"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="splash">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Splash Page</h1>
+<iframe class="img2" src="https://docs.google.com/document/d/e/2PACX-1vQx0_rL1ayuW8uRaslhHnz2nUdmURyvSc57709nb79QoAiXiAAWXgjDn5eKAuCbVfQRlTKW19gYGrMI/pub?embedded=true">
+</iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="commercial">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">IT Commercial</h1>
+
+<iframe class="img2" src="stb.jpg" width="640" height="480"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="commercial">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">IT Commercial</h1>
+
+<iframe class="img2" src="https://www.youtube.com/embed/PYSiXkrSfj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</html>

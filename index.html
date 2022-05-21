@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Network</title>
+</head>
+<script type="text/javascript" src="clock.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+
+
+<!--This pulls up the clock, it's date and the current time from javascript-->
+
+<div class="component">
+<body onload="startTime()">
+<div class="clockdate-wrapper">
+<div id="clock"></div>
+<div id="date"></div>
+</div>
+
+
+
+
+<!--This is the Sidenavigation id caller from -->
+<div id="mySidenav" class="sidenav">
+<a class="closebtn" onclick="closeNav()">&times;</a>
+
+<!--This calls the the different schedules-->
+<div class="period2">
+<div id="blocks" style="display:none"></div>
+<div id="blocks2" style="display:none"></div>
+<div id="blocks3" style="display:none"></div>
+<div id="blocks4" style="display:none"></div>
+<div id="blocks5" style="display:none"></div>
+</div>
+
+<div class="period2">
+<div id="blockss" style="display:none"></div>
+<div id="blockss2" style="display:none"></div>
+<div id="blockss3" style="display:none"></div>
+<div id="blockss4" style="display:none"></div>
+<div id="blockss5" style="display:none"></div>
+</div>
+
+
+
+
+<div class="period">
+
+<!--These are the radio buttons that uses the funtion ShowHideDiv() from Javascript-->
+<label for="reg">
+    <input type="radio" id="reg" name="chkPassPort" onclick="ShowHideDiv()" />
+    Regular
+</label>
+
+<br>
+
+<label for="advisory">
+    <input type="radio" id="ad" name="chkPassPort" onclick="ShowHideDiv()" />
+    Advisory
+</label>
+
+<br>
+
+<label for="late">
+    <input type="radio" id="late" name="chkPassPort" onclick="ShowHideDiv()" />
+    Late Start
+</label>
+
+<br>
+
+<label for="ed">
+    <input type="radio" id="ed" name="chkPassPort" onclick="ShowHideDiv()" />
+    Early Dismissal
+</label>
+
+<br>
+
+<label for="ma">
+    <input type="radio" id="ma" name="chkPassPort" onclick="ShowHideDiv()" />
+    Mass
+</label>
+
+</div>
+</div>
+
+
+<!--This calls the function openNav() from JS and opens the side navigation-->
+<div class="period3">
+<span onclick="openNav()">Open Schedule</span>
+ </div>
+</div>
+
+<div class="sticky">
+<div class="header">
+<p id="top">
+</p>
+<center>
+  <h1><span class="highlightme"> Home </span></h1>
+</center>
+</div>
+</div>
+
+
+<!--NAVIGATION BAR-->
+<div class="sticky">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+ <a href="about.html">About Me</a>
+	<a href="network.html">Network</a>
+  	<a href="blogposts.html">Blog Posts</a>
+  	<a href="videoediting.html">Video Editing</a>
+  	<a href="presentation.html">Presentations</a>
+  	<a href="html.html">HTML</a>
+  	<a href="programming.html">Programming</a>
+  	<a href="computerparts.html">Computer Parts</a>
+  	<a href="javascript.html">JavaScript</a>         
+  	<a href="technology.html">Technology</a> 
+  	<a href="mygraphics.html">Graphics</a>        
+</div>
+</div>
+
+</div>
+ </div>
+
+<!--END OF NAVIGATION BAR-->
+
+<body>
+<div class= "text">
+Hello. This is my Website which is also an archive for my work and assignments that I've done during my time in ICT 11 of 2018/19 and grade 12 of 2019/0. Not only that, but it also contains my experiences and how I've grown throughout the year. 
+</div>
+</center>
+
+
+<center>
+<img class="img3" src="hclogo.png"></iframe>
+</center>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</html>

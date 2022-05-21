@@ -1,0 +1,419 @@
+
+body {
+	background-image: url("mountain.jpg");
+	background-repeat:
+	background-size: cover;
+	
+}
+
+
+
+
+
+.h1 {
+	text-align: center;
+	border-style: grey;
+	width: 240px;
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	font-size: 30px;
+	font: serif
+	
+	
+}
+
+.highlightme {
+
+}
+
+
+.header {
+	
+	overflow: hidden;
+	color: white;
+	border-style: groove;
+	background-image: url(gears4.jpg);
+	font: serif
+	text-align: center;
+	margin-top: -10px;
+	font-family: serif;
+	font-size: 10px;
+	height: 48px;
+	width: 500px;
+	margin-left: 500px;
+
+	
+}
+
+
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: serif;
+	font-size: 16px;
+	width: 495px;
+	padding: 2px
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px; 
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; 
+	margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: green;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: none;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
+}
+
+
+
+
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+
+.main {
+	margin-bottom: 0px;
+	margin-top: 0px; 
+}
+
+
+.text. {
+	font-size: 12px;
+	font: serif;
+}
+
+
+.img {
+	width: 500px;
+	height: 500px;
+}
+
+
+.img2 {
+	width: 1000px;
+	height: 500px;
+}
+
+
+.img3 {
+	width: 800px;
+	height: 500px;
+	opacity: 0.7; 
+}
+
+
+.text {
+	word-wrap: break-word;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:25px;
+    max-width:170px;
+    width:100%;
+    text-align: center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top: -8px;
+    margin-right: 0px;
+} /* This is the call class for the clock */
+
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:24px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+     margin-right: -25px;
+} /* This affects the image of the clock and numbers */
+
+#clock span {
+    color: white;
+    text-shadow:0px 0px 1px #333;
+    font-size:18px;
+    position:relative;
+    top:-20px;
+    left:-10px;
+} /* This affects the image of the "AM" and "PM" */
+
+#date {
+    letter-spacing:1px;
+    font-size:12px;
+    font-family:arial,sans-serif;
+    color:#fff;
+    position: relative;
+} /* This affects the image of the dates */
+
+.period {
+    background-color: #333;
+    padding:25px;
+    max-width:170px;
+    width:100%;
+    text-align: left;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:2px;
+    margin-right: -5px;
+    color: white;
+
+} /* This affects the image of different parts of html through class call */
+
+.period2 {
+    background-color: #333;
+    padding:25px;
+    max-width:170px;
+    width:100%;
+    height: 8px;
+    text-align: left;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:2px;
+    margin-right: -5px;
+    color: white;
+    font-size: 15px;
+
+} /* This affects the image of different parts of html through class call */
+
+.period3 {
+    background-color: #333;
+    padding:10px;
+    max-width:80px;
+    width:100%;
+    height: 8px;
+    text-align: left;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:2px;
+    margin-right: 0px;
+    color: white;
+    font-size: 12px;
+
+} /* This affects the image of different parts of html through class call */
+
+.component{
+    position: sticky;
+    top: 0;
+} /* This makes the clock sticky to scrolling down */
+
+
+
+
+
+
+.clockbar {
+	overflow: hidden;
+	background-color: #333;
+    padding:10px;
+    max-width:70px;
+    max-height: 100%;
+    height: 10px;
+    text-align: left;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:2px;
+    margin-right: 125px;
+    color: white;
+    
+
+}
+
+.clockbar a {
+	float: left;
+	color: white;
+	text-align: right;
+
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px; 
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+	font-family: inherit; 
+	margin: -2px; 
+}
+
+.clockbar a:hover, .dropdown:hover .dropbtn {
+	background-color: green;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	z-index: 1;
+	border-radius:2px;
+	max-width:150px;
+	margin-left: -10px;
+	 height: 65px;
+   overflow: auto;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	text-decoration: none;
+	display: block;
+	text-align: none;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
+	
+	
+	
+	
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 270px; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 92px; /* Stay at the top */
+  right: -14px;
+  background-color:  none; /* Black*/
+  overflow: auto; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: red;
+  
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 183px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+

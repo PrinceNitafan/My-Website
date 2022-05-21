@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Posts</title>
+</head>
+<script type="text/javascript" src="clock.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+
+
+<!--This pulls up the clock, it's date and the current time from javascript-->
+
+<div class="component">
+<body onload="startTime()">
+<div class="clockdate-wrapper">
+<div id="clock"></div>
+<div id="date"></div>
+</div>
+
+
+
+
+<!--This is the Sidenavigation id caller from -->
+<div id="mySidenav" class="sidenav">
+<a class="closebtn" onclick="closeNav()">&times;</a>
+
+<!--This calls the the different schedules-->
+<div class="period2">
+<div id="blocks" style="display:none"></div>
+<div id="blocks2" style="display:none"></div>
+<div id="blocks3" style="display:none"></div>
+<div id="blocks4" style="display:none"></div>
+<div id="blocks5" style="display:none"></div>
+</div>
+
+<div class="period2">
+<div id="blockss" style="display:none"></div>
+<div id="blockss2" style="display:none"></div>
+<div id="blockss3" style="display:none"></div>
+<div id="blockss4" style="display:none"></div>
+<div id="blockss5" style="display:none"></div>
+</div>
+
+
+
+
+<div class="period">
+
+<!--These are the radio buttons that uses the funtion ShowHideDiv() from Javascript-->
+<label for="reg">
+    <input type="radio" id="reg" name="chkPassPort" onclick="ShowHideDiv()" />
+    Regular
+</label>
+
+<br>
+
+<label for="advisory">
+    <input type="radio" id="ad" name="chkPassPort" onclick="ShowHideDiv()" />
+    Advisory
+</label>
+
+<br>
+
+<label for="late">
+    <input type="radio" id="late" name="chkPassPort" onclick="ShowHideDiv()" />
+    Late Start
+</label>
+
+<br>
+
+<label for="ed">
+    <input type="radio" id="ed" name="chkPassPort" onclick="ShowHideDiv()" />
+    Early Dismissal
+</label>
+
+<br>
+
+<label for="ma">
+    <input type="radio" id="ma" name="chkPassPort" onclick="ShowHideDiv()" />
+    Mass
+</label>
+
+</div>
+</div>
+
+
+<!--This calls the function openNav() from JS and opens the side navigation-->
+<div class="period3">
+<span onclick="openNav()">Open Schedule</span>
+ </div>
+</div>
+
+<div class="sticky">
+<div class="header">
+<p id="top">
+</p>
+<center>
+  <h1><span class="highlightme"> Blog Posts </span></h1>
+</center>
+</div>
+</div>
+
+
+<!--NAVIGATION BAR-->
+<div class="sticky">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+ <a href="about.html">About Me</a>
+	<a href="network.html">Network</a>
+  	<a href="blogposts.html">Blog Posts</a>
+  	<a href="videoediting.html">Video Editing</a>
+  	<a href="presentation.html">Presentations</a>
+  	<a href="html.html">HTML</a>
+  	<a href="programming.html">Programming</a>
+  	<a href="computerparts.html">Computer Parts</a>
+  	<a href="javascript.html">JavaScript</a>         
+  	<a href="technology.html">Technology</a> 
+  	<a href="mygraphics.html">Graphics</a>    
+</div>
+</div>
+<div class="dropdown">
+    <button class="dropbtn"> Work 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="#top">Top</a>
+	<a href="#iphonehistory">iPhone History</a>
+  	<a href="#personalprivacy">Personal Privacy</a>
+  	<a href="#rightorepair">Right to Repair</a>
+  	<a href="#paulallen">Paul Allen</a>
+  	<a href="#cesproducts">CES Procducts</a>
+  	<a href="#tracktech">Using tracking Technology</a>
+  	<a href="#tech?">Useful or Useless Tech?</a>
+  	<a href="#bop">Beginning of Programming</a>
+	
+
+</div>
+</div>
+</div>
+ </div>
+
+<!--END OF NAVIGATION BAR-->
+
+<body>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class= "text">
+<center>
+These are my reflections and they are pretty much self-explanatory as I've reflected on the questions given to me.
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id="iphonehistory">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">iPhone History</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vQupx9Cj4nNf-Xjq6SNRCN-MuKA_5us1Ho8yREIWZLazWadL_1CjhLjApJ-AbELDcVqBwq0eqQbm4ZO/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="personalprivacy">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Personal Privacy</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vSdt9IHV2Pw6IZiZTgArlPM7E4reDIyd1kl_0TfpyRqxbXpt9if7bZshf_Ur9nh9qRaPLS4fhcHBso1/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="rightorepair">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Right to Repair</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vSOPrKCn0YuVzI31mUWPAg1cifHwkw7BbIBVX_fmU_PGcB3wtcRwBtWaE8I9ks3qaXCTXEesRW3ueMy/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="paulallen">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Paul Allen</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vQWNm81RJT_zo-mgO6C80w8JrvzA-LTCOj8PQa49vDJxEHG4Lcjgu-Bp_fZBP2QWqKOIFBL4vusWG5T/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="cesproducts">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">CES Products</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vQcDczLr8ag0u8fBqBiCMwzEAZF5j29iIwADPbSsQ2XbpUr631-zb2_wFxm34qhaNqAj2RLe9qe9wRo/pub?embedded=true"></iframe></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="tracktech">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Using tracking Technology</h1>
+<iframe class="img2" src="https://docs.google.com/document/d/e/2PACX-1vTXE0Q_XPKx0f5kY3DtK5lBTM0jyCCrJGIJL2Q9PxsI58QJ552btghXTURGE0qe1xWDaBQ_IqVI9UWY/pub?embedded=true"></iframe></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="tech?">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Useful or Useless Tech?</h1>
+<iframe class="img2" src="https://docs.google.com/document/d/e/2PACX-1vRiUvhA0JjVHnygkRr4szkPzqx-maS0Fc6GrK5iKVGbFxn0WbFeUAv1uNmJO-3wdoy2tyzzrK_TAQa8/pub?embedded=true"></iframe></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="bop">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Beginning of Programming</h1>
+<iframe class="img2" src="https://docs.google.com/document/d/e/2PACX-1vQhMAdXf0-OC36RaZR--rccu6EtjYf0wDqz3FwzbimiThvD8e6VN-ltZ_mKFYlfCjh20OqOTJoBfKXM/pub?embedded=true"></iframe></iframe>
+</center>
+
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</html>

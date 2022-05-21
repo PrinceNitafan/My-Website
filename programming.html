@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Programming</title>
+</head>
+<script type="text/javascript" src="clock.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+
+
+<!--This pulls up the clock, it's date and the current time from javascript-->
+
+<div class="component">
+<body onload="startTime()">
+<div class="clockdate-wrapper">
+<div id="clock"></div>
+<div id="date"></div>
+</div>
+
+
+
+
+<!--This is the Sidenavigation id caller from -->
+<div id="mySidenav" class="sidenav">
+<a class="closebtn" onclick="closeNav()">&times;</a>
+
+<!--This calls the the different schedules-->
+<div class="period2">
+<div id="blocks" style="display:none"></div>
+<div id="blocks2" style="display:none"></div>
+<div id="blocks3" style="display:none"></div>
+<div id="blocks4" style="display:none"></div>
+<div id="blocks5" style="display:none"></div>
+</div>
+
+<div class="period2">
+<div id="blockss" style="display:none"></div>
+<div id="blockss2" style="display:none"></div>
+<div id="blockss3" style="display:none"></div>
+<div id="blockss4" style="display:none"></div>
+<div id="blockss5" style="display:none"></div>
+</div>
+
+
+
+
+<div class="period">
+
+<!--These are the radio buttons that uses the funtion ShowHideDiv() from Javascript-->
+<label for="reg">
+    <input type="radio" id="reg" name="chkPassPort" onclick="ShowHideDiv()" />
+    Regular
+</label>
+
+<br>
+
+<label for="advisory">
+    <input type="radio" id="ad" name="chkPassPort" onclick="ShowHideDiv()" />
+    Advisory
+</label>
+
+<br>
+
+<label for="late">
+    <input type="radio" id="late" name="chkPassPort" onclick="ShowHideDiv()" />
+    Late Start
+</label>
+
+<br>
+
+<label for="ed">
+    <input type="radio" id="ed" name="chkPassPort" onclick="ShowHideDiv()" />
+    Early Dismissal
+</label>
+
+<br>
+
+<label for="ma">
+    <input type="radio" id="ma" name="chkPassPort" onclick="ShowHideDiv()" />
+    Mass
+</label>
+
+</div>
+</div>
+
+
+<!--This calls the function openNav() from JS and opens the side navigation-->
+<div class="period3">
+<span onclick="openNav()">Open Schedule</span>
+ </div>
+</div>
+
+<div class="sticky">
+<div class="header">
+<p id="top">
+</p>
+<center>
+  <h1><span class="highlightme"> Programming </span></h1>
+</center>
+</div>
+</div>
+
+
+
+<!--NAVIGATION BAR-->
+<div class="sticky">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+ <a href="about.html">About Me</a>
+	<a href="network.html">Network</a>
+  	<a href="blogposts.html">Blog Posts</a>
+  	<a href="videoediting.html">Video Editing</a>
+  	<a href="presentation.html">Presentations</a>
+  	<a href="html.html">HTML</a>
+  	<a href="programming.html">Programming</a>
+  	<a href="computerparts.html">Computer Parts</a>
+  	<a href="javascript.html">JavaScript</a>         
+  	<a href="technology.html">Technology</a> 
+  	<a href="mygraphics.html">Graphics</a>     
+</div>
+</div>
+<div class="dropdown">
+    <button class="dropbtn"> Work 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="#top">Top</a>
+	<a href="#programlanguage">Program Languages</a>
+	<a href="#scratch">Scratch Work</a>
+	<a href="#repl.it">Repl.it Work</a>
+  	<a href="#programquiz">Program Quiz</a>
+  	
+
+</div>
+</div>
+</div>
+ </div>
+
+<!--END OF NAVIGATION BAR-->
+
+<body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class= "text">
+<center>
+With the use of my new programming knowledge, I was able to create a soda and a repeating name code. However, before, I thought that there was only one format of coding, which is until I learned of various types people have used. Now, I've learned how to use a Python and HTML. Though I prefer to use HTML with how easier and flexible it is compared to Python, which needs perfect coding to make anything work. 
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id="programlanguage">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Program Languages</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vRgW4iaZ7XoD4bCNQupT04RcKk_vriQPS_M0WAxL44KWi2xWpaLzOI6mkHaJFTIqhSrmHnFWsmaqZI_/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="scratch">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Scratch Work</h1>
+<iframe class="img2" src="https://scratch.mit.edu/projects/252982500/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
+</iframe>
+<img class="img" src="scratch.jpg">
+<img class="img" src="scratch2.jpg">
+
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="repl.it">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Repl.it Work</h1>
+
+<iframe class="img2" src="https://repl.it/@Gamers22/UntriedPrudentMetrics?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<br>
+<br>
+<br>
+
+<iframe class="img2" src="https://repl.it/@Gamers22/SlategrayCelebratedLocks?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="programquiz">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Programming Quiz</h1>
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vTFQl3Bp0go0TbpD8wr_lbCrZ8HehZlMwCMTyS9bX4JQF6Qpc0TxkhjzPZuJZl7X2mjP76upPyP2-Fg/pub?embedded=true"></iframe>
+
+<iframe class="img2" src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vSjplOI5CJdpiLBe9RbHh4cacm0MLIDJHdED5JXQMXyznScH-Jg-ShO8_3aeZtYQuoetE7fWLFLtRN4/pub?embedded=true"></iframe>
+</center>
+</center>
+
+</body>
+</html>

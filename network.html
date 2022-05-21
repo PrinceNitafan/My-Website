@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Network</title>
+</head>
+<script type="text/javascript" src="clock.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet2.css">
+
+
+
+<!--This pulls up the clock, it's date and the current time from javascript-->
+
+<div class="component">
+<body onload="startTime()">
+<div class="clockdate-wrapper">
+<div id="clock"></div>
+<div id="date"></div>
+</div>
+
+
+
+
+<!--This is the Sidenavigation id caller from -->
+<div id="mySidenav" class="sidenav">
+<a class="closebtn" onclick="closeNav()">&times;</a>
+
+<!--This calls the the different schedules-->
+<div class="period2">
+<div id="blocks" style="display:none"></div>
+<div id="blocks2" style="display:none"></div>
+<div id="blocks3" style="display:none"></div>
+<div id="blocks4" style="display:none"></div>
+<div id="blocks5" style="display:none"></div>
+</div>
+
+<div class="period2">
+<div id="blockss" style="display:none"></div>
+<div id="blockss2" style="display:none"></div>
+<div id="blockss3" style="display:none"></div>
+<div id="blockss4" style="display:none"></div>
+<div id="blockss5" style="display:none"></div>
+</div>
+
+
+
+
+<div class="period">
+
+<!--These are the radio buttons that uses the funtion ShowHideDiv() from Javascript-->
+<label for="reg">
+    <input type="radio" id="reg" name="chkPassPort" onclick="ShowHideDiv()" />
+    Regular
+</label>
+
+<br>
+
+<label for="advisory">
+    <input type="radio" id="ad" name="chkPassPort" onclick="ShowHideDiv()" />
+    Advisory
+</label>
+
+<br>
+
+<label for="late">
+    <input type="radio" id="late" name="chkPassPort" onclick="ShowHideDiv()" />
+    Late Start
+</label>
+
+<br>
+
+<label for="ed">
+    <input type="radio" id="ed" name="chkPassPort" onclick="ShowHideDiv()" />
+    Early Dismissal
+</label>
+
+<br>
+
+<label for="ma">
+    <input type="radio" id="ma" name="chkPassPort" onclick="ShowHideDiv()" />
+    Mass
+</label>
+
+</div>
+</div>
+
+
+<!--This calls the function openNav() from JS and opens the side navigation-->
+<div class="period3">
+<span onclick="openNav()">Open Schedule</span>
+ </div>
+</div>
+
+<div class="sticky">
+<div class="header">
+<p id="top">
+</p>
+<center>
+  <h1><span class="highlightme"> Network </span></h1>
+</center>
+</div>
+</div>
+
+
+<!--NAVIGATION BAR-->
+<div class="sticky">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+ <a href="about.html">About Me</a>
+	<a href="network.html">Network</a>
+  	<a href="blogposts.html">Blog Posts</a>
+  	<a href="videoediting.html">Video Editing</a>
+  	<a href="presentation.html">Presentations</a>
+  	<a href="html.html">HTML</a>
+  	<a href="programming.html">Programming</a>
+  	<a href="computerparts.html">Computer Parts</a>
+  	<a href="javascript.html">JavaScript</a>         
+  	<a href="technology.html">Technology</a> 
+  	<a href="mygraphics.html">Graphics</a>        
+</div>
+</div>
+<div class="dropdown">
+    <button class="dropbtn"> Work 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="#top">Top</a>
+	<a href="#networksever">Network and Server Definitions</a>
+  	<a href="#dns">URL and DNS</a>	
+
+</div>
+</div>
+</div>
+ </div>
+
+<!--END OF NAVIGATION BAR-->
+
+<body>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class= "text">
+<center>
+DNS and IP address are something I've heard and known about, but had little information in how they performed. In these assignments, I researched how a DNS worked, as the web browser would search through the computer files and its storage to form the asked page. I learned that computers are actually connected to large servers (computers) and information needs to go through numerous computers to reach its destination.
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id="networksever">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">Network Definitions</h1>
+<iframe class="img2"src="https://docs.google.com/a/mycrusader.net/document/d/e/2PACX-1vTfLGfiER1KUzulJgJLeNc1AzMexxeTrU2eP1R3vXJodgRPxbREb7DKT89P-I28vx6dY1f0WNaFqsfu/pub?embedded=true"></iframe>
+</center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p id="dns">
+</p>
+<br>
+<br>
+<center>
+<h1 class= "h1">URL and DNS</h1>
+<iframe class="img2"src="https://docs.google.com/a/mycrusader.net/presentation/d/e/2PACX-1vTlGhZgSqOEH2PkoBI-8gBf0f2PB0NMycD54-bNvqmeDbMPXqOnwLflxTAYwgFujYoJOAIwAgqCrx4M/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</center>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</html>
